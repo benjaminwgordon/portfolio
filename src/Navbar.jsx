@@ -9,19 +9,19 @@ const MyNav = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="md">
             <Container>
-                <LinkContainer to="/home">
+                <LinkContainer to="/portfolioV2/home">
                     <Navbar.Brand bg="primary">Ben Gordon</Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <LinkContainer to="/home">
+                        <LinkContainer to="/portfolioV2/home">
                             <Nav.Link>Home</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/about">
+                        <LinkContainer to="/portfolioV2/about">
                             <Nav.Link>About Me</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/projects">
+                        <LinkContainer to="/portfolioV2/projects">
                             <Nav.Link>Projects</Nav.Link>
                         </LinkContainer>
                     </Nav>

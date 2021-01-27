@@ -12,7 +12,7 @@ import './App.scss';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/portfolioV2">
       <div className="background">
         <Navbar />
           <div className="content">
