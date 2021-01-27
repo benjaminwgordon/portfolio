@@ -1,0 +1,52 @@
+@import "~bootstrap/scss/bootstrap";
+
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.background{
+    background-image: url('/hero.jpg');
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.hero-text{
+    width:fit-content;
+    text-align:center;
+    margin:auto;
+    color:white;
+}
+
+.navbar{
+    height:8vh;
+}
+
+.content{
+    height:92vh;
+    padding:0;
+}
