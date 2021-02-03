@@ -63,7 +63,7 @@ const Projects = () => {
     })
 
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             <h4>Projects</h4>
             <div className="project-list">
                 {projectRender}

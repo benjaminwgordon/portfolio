@@ -6,6 +6,7 @@ import Skills from './Skills/Skills'
 import WorkHistory from './WorkHistory/WorkHistory'
 import Container from 'react-bootstrap/Container'
 import Projects from './Projects/Projects'
+import Footer from './Footer/Footer'
 import './App.scss';
 
 const App = () => {
@@ -18,7 +19,8 @@ const App = () => {
             <Skills />
             <WorkHistory />
             <Projects />
-          </Container>
+        </Container>
+        <Footer />
       </div>
     </div>
   )
