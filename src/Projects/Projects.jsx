@@ -1,57 +1,73 @@
 import React from 'react'
 
-import './Project.scss'
+import './Projects.scss'
 
-import streamSyncHome from './media/stream-sync-home.png'
-
+import Project from '../Project/Project'
+import pythonIcon from '../Media/Developer/005-python.svg'
+import nodeJSIcon from'../Media/Developer/032-nodejs.svg'
+import postgreSQL from '../Media/Developer/PostgreSQL.svg'
+import herokuIcon from '../Media/Developer/heroku-logo-solid-purple.svg'
+import djangoIcon from '../Media/Developer/django.svg'
+import socketIOIcon from '../Media/Developer/socket-io.svg'
+import expressIcon from '../Media/Developer/express-js.svg'
 
 const Projects = () => {
 
-    class Project{
-        constructor(name, technologies, image, repository, url){
+    class ProjectData{
+        constructor(name, technologies, image, repository, url, description){
             this.name = name
             this.technologies = technologies
             this.image = image
             this.repository = repository
             this.url = url
+            this.description = description
         }
     }
 
-    const streamSync = new Project(
-        "streamSync",
+    const streamSync = new ProjectData(
+        "StreamSync",
         [
-            "Socket.io", "Node.js", "Express"
+            nodeJSIcon, socketIOIcon, herokuIcon
         ],
-        streamSyncHome,
+        null,
         'https://github.com/benjaminwgordon/Youtube-Stream-Share',
         'https://youtube-stream-share.herokuapp.com/',
+        'Synchronized Youtube playback with live text chat'
     )
 
-    const wayfarer = new Project(
+    const wayfarer = new ProjectData(
         "Wayfarer",
         [
-            "Python", "Django", "PostgreSQL"
+            pythonIcon, djangoIcon, postgreSQL
         ],
         null,
         'https://wayfarer-group.herokuapp.com/',
-        'https://github.com/benjaminwgordon/Wayfarer',   
+        'https://github.com/benjaminwgordon/Wayfarer',
+        'Travel review site for public natural spaces'
     )
 
-    const shareAGraph = new Project(
+    const shareAGraph = new ProjectData(
         "Share-a-Graph",
         [
-            "Node.js", "Express"
+            nodeJSIcon, expressIcon
         ],
         null,
         'https://github.com/benjaminwgordon/share-a-graph',
         'https://share-a-graph.herokuapp.com/',
+        'Community writing platform for collaborative story telling'
     )
 
-    const 
+    const projects = [streamSync, wayfarer, shareAGraph]
+    const projectRender = projects.map(project => {
+        return <Project project={project} key={project.name}/>
+    })
 
     return (
-        <div>
-            
+        <div className="projects">
+            <h4>Projects</h4>
+            <div className="project-list">
+                {projectRender}
+            </div>
         </div>
     )
 }

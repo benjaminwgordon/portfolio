@@ -5,7 +5,7 @@ import About from './About/About'
 import Skills from './Skills/Skills'
 import WorkHistory from './WorkHistory/WorkHistory'
 import Container from 'react-bootstrap/Container'
-
+import Projects from './Projects/Projects'
 import './App.scss';
 
 const App = () => {
@@ -17,6 +17,7 @@ const App = () => {
             <About />
             <Skills />
             <WorkHistory />
+            <Projects />
           </Container>
       </div>
     </div>
