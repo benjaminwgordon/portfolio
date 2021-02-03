@@ -1,4 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
 a:hover{
   text-decoration: none;
 }
@@ -109,13 +111,11 @@ html {
     color:white;
 }
 
-.navbar{
-}
-
 .content{
     margin-top:5rem;
     padding:0;
     overflow-y: scroll;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
