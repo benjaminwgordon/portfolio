@@ -1,0 +1,84 @@
+@import '../Material';
+@import "~bootstrap/scss/bootstrap";
+
+.about{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.about-left{
+    padding-right:1rem;
+    display:flex;
+    justify-content: center;
+    min-width:25rem;
+}
+
+.about-right{
+    min-width:24rem;
+}
+
+.bio{
+    font-size:1.1rem;
+}
+
+.education{
+    margin-top:3rem;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    padding-left:0;
+    justify-content:space-between;
+}
+
+.university, .certifications{
+    & ul{
+        list-style: none;
+        padding-left:1rem;
+    }
+    & h4{
+        font-weight: bold;
+    }
+    & h5{
+        padding-left:1rem;
+    }
+    & p{
+        padding-left:1rem;
+        margin-bottom:0;
+    }
+    margin-bottom:1rem;
+}
+
+.certification-list{
+    display:flex;
+    flex-direction: column;
+}
+
+@include media-breakpoint-up(xl) {
+    .certification-list{
+        flex-direction:row;
+    }
+}
+
+.certification-card{
+    @include material-card;
+    cursor: pointer;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin:0.5rem;
+    flex:1;
+    width:15rem;
+    color:#000000;
+}
+
+.university-card{
+    @include material-card;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width:18rem;
+}
+

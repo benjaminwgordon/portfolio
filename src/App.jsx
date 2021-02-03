@@ -1,35 +1,25 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
 
-import Navbar from './Navbar'
-import Home from './Home'
-import About from './About'
+import MyNav from './MyNav/MyNav'
+import About from './About/About'
+import Skills from './Skills/Skills'
+import WorkHistory from './WorkHistory/WorkHistory'
+import Container from 'react-bootstrap/Container'
+
 import './App.scss';
 
 const App = () => {
   return (
-    <Router basename="/portfolioV2">
-      <div className="background">
-        <Navbar />
-          <div className="content">
-            <Switch>
-              <Route path="/home">
-                <Home />
-              </Route>
-              <Route path="/about">
-                <About />
-              </Route>
-              <Route path="/projects">
-                <Home />
-              </Route>
-            </Switch>
-          </div>
+    <div className="background">
+      <MyNav />
+      <div className="content">
+        <Container>
+            <About />
+            <Skills />
+            <WorkHistory />
+          </Container>
       </div>
-    </Router>
+    </div>
   )
 }
 

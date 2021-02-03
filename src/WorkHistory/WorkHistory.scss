@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+.work-history-wrapper{
+  display:flex;
+  flex-direction:column;
+  padding-top:5rem;
+}
+
+@include media-breakpoint-up(md) {
+  .work-history-wrapper{
+    flex-direction:row;
+  }
+}
+
+
+.work-history-header{
+  flex: 1;
+  font-weight:bold;
+  font-size: 1.75rem;
+}
+.work-history{
+    flex: 3;
+    color:black;
+    display:flex;
+    flex-direction:column-reverse;
+    background:rgba(255, 255, 255, 0.924);
+    padding-top:2rem;
+  }

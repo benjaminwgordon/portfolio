@@ -1,0 +1,45 @@
+.badge{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding:10%;
+    background-color:white;
+    font-size:1rem;
+}
+
+.rounded-image-container{
+    width:75%;
+    margin:auto;
+    & img{
+        max-width:100%;
+        border-radius:50%;
+        border:5px solid white;
+    }    
+}
+
+.name{
+    margin:auto;
+    width:fit-content;
+}
+
+.about-text{
+    margin:auto;
+    text-align:center;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 30rem;
+}
+
+.social-icons{
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    justify-content: center;
+    align-items:center;
+}
+
+.social-icon{
+    min-width:2rem;
+    margin:0.25rem;
+}

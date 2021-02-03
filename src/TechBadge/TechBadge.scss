@@ -1,0 +1,34 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+.techbadge{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:2rem;
+}
+
+@include media-breakpoint-up(xs) {
+    .techbadge{
+        width: 90px;
+    }
+}
+@include media-breakpoint-up(sm) {
+    .techbadge{
+        width: 90px;
+    }
+}
+@include media-breakpoint-up(md) {
+    .techbadge{
+        width: 130px;
+    }
+}
+@include media-breakpoint-up(lg) {
+    .techbadge{
+        width: 170px;
+    }
+}
+
+label{
+    text-align:center;
+}
