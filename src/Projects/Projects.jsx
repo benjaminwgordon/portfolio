@@ -41,8 +41,8 @@ const Projects = () => {
             pythonIcon, djangoIcon, postgreSQL
         ],
         null,
-        'https://wayfarer-group.herokuapp.com/',
         'https://github.com/benjaminwgordon/Wayfarer',
+        'https://wayfarer-group.herokuapp.com/',
         'Travel review site for public natural spaces'
     )
 
