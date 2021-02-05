@@ -19,8 +19,9 @@ const About = () => {
                 </Col>
                 <Col className="about-right">
                     <div className="bio">
-                        <p>I am a recent grad of the University of Arizona, as well as General Assembly's Software Engineering Immersive Program.</p>  
-                        <p>I have been fascinated with heavy machinery and manufacturing since I was young.  I combined this with my interest in software, and carved out a niche developing metaprogramming software for computer controlled manufacturing businesses.  I previously have worked for the University of Arizona Machining and Welding Center, as well as Gordon Machine Works.</p>
+                        <p>I am a <b>Full-Stack Software Engineer</b> with a background in Manufacturing Automation, looking for Full-Stack or Back-End opportunities.</p>
+                        <p>I am a recent grad of the <b>University of Arizona</b>, as well as <b>General Assembly</b>'s Software Engineering Immersive Program.</p>  
+                        <p>I have combined my fascination with manufacturing heavy machinery with my interest in software, and have carved out a niche developing metaprogramming software for manufacturing businesses. I have worked for the <b>University of Arizona Machining and Welding Center</b>, as well as <b>Gordon Machine Works</b>.</p>
                         <p>When I am not writing software, you can find me cooking Sichuanese food, hoarding all the wheat in Settlers of Catan, or making premium kitchen knives at my forge.</p>
                     </div>
                     <div className="education">
