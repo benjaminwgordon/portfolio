@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7a215cdf.chunk.css",
-    "main.js": "/portfolio/static/js/main.a372ff4c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a372ff4c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.0c8b9f9b.chunk.css",
+    "main.js": "/portfolio/static/js/main.9b878e17.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9b878e17.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
     "static/js/2.55d783da.chunk.js": "/portfolio/static/js/2.55d783da.chunk.js",
     "static/js/2.55d783da.chunk.js.map": "/portfolio/static/js/2.55d783da.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.7a215cdf.chunk.css.map": "/portfolio/static/css/main.7a215cdf.chunk.css.map",
+    "static/css/main.0c8b9f9b.chunk.css.map": "/portfolio/static/css/main.0c8b9f9b.chunk.css.map",
     "static/js/2.55d783da.chunk.js.LICENSE.txt": "/portfolio/static/js/2.55d783da.chunk.js.LICENSE.txt",
     "static/media/004-docker.f8dcee51.svg": "/portfolio/static/media/004-docker.f8dcee51.svg",
     "static/media/005-python.477009ef.svg": "/portfolio/static/media/005-python.477009ef.svg",
@@ -25,20 +25,23 @@
     "static/media/PostgreSQL.d9a2599c.svg": "/portfolio/static/media/PostgreSQL.d9a2599c.svg",
     "static/media/UA.87e2d253.svg": "/portfolio/static/media/UA.87e2d253.svg",
     "static/media/aws-certified-cloud-practitioner.4787e75c.png": "/portfolio/static/media/aws-certified-cloud-practitioner.4787e75c.png",
+    "static/media/bootstrap.72c6aa1e.svg": "/portfolio/static/media/bootstrap.72c6aa1e.svg",
     "static/media/css3.8fba365c.svg": "/portfolio/static/media/css3.8fba365c.svg",
     "static/media/django.8951739a.svg": "/portfolio/static/media/django.8951739a.svg",
     "static/media/express-js.7d023c32.svg": "/portfolio/static/media/express-js.7d023c32.svg",
     "static/media/heroku-logo-solid-purple.018ad819.svg": "/portfolio/static/media/heroku-logo-solid-purple.018ad819.svg",
     "static/media/javascript.07314975.svg": "/portfolio/static/media/javascript.07314975.svg",
     "static/media/me.be8c2f2a.png": "/portfolio/static/media/me.be8c2f2a.png",
+    "static/media/next-js.8a26c6f6.svg": "/portfolio/static/media/next-js.8a26c6f6.svg",
     "static/media/resume-and-cv-white.5eb2f614.svg": "/portfolio/static/media/resume-and-cv-white.5eb2f614.svg",
     "static/media/resume-and-cv.603deabc.svg": "/portfolio/static/media/resume-and-cv.603deabc.svg",
+    "static/media/sass.8aa78a83.svg": "/portfolio/static/media/sass.8aa78a83.svg",
     "static/media/socket-io.aa27363b.svg": "/portfolio/static/media/socket-io.aa27363b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8fed2963.js",
     "static/js/2.55d783da.chunk.js",
-    "static/css/main.7a215cdf.chunk.css",
-    "static/js/main.a372ff4c.chunk.js"
+    "static/css/main.0c8b9f9b.chunk.css",
+    "static/js/main.9b878e17.chunk.js"
   ]
 }
