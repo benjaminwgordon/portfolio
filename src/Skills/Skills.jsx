@@ -15,6 +15,9 @@ import htmlIcon from '../Media/Developer/HTML.svg'
 import djangoIcon from '../Media/Developer/django.svg'
 import socketIOIcon from '../Media/Developer/socket-io.svg'
 import expressIcon from '../Media/Developer/express-js.svg'
+import nextJSIcon from '../Media/Developer/next-js.svg'
+import sassIcon from '../Media/Developer/sass.svg'
+import bootstrapIcon from '../Media/Developer/bootstrap.svg'
 
 class Skill{
     constructor(name, icon){
@@ -35,7 +38,10 @@ const skills = [
     new Skill("PostgreSQL", postgreSQL),
     new Skill("Docker", dockerIcon),
     new Skill("Heroku", herokuIcon),
-    new Skill("SocketIO", socketIOIcon)
+    new Skill("SocketIO", socketIOIcon),
+    new Skill("Next.js", nextJSIcon),
+    new Skill("Sass", sassIcon),
+    new Skill("Bootstrap", bootstrapIcon)
 ]
 const skillBadges = skills.map(skill => {
     return <TechBadge icon={skill.icon} name={skill.name} key={'techbadge: ' + skill.name} />

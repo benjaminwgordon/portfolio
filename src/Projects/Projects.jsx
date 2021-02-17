@@ -10,6 +10,9 @@ import herokuIcon from '../Media/Developer/heroku-logo-solid-purple.svg'
 import djangoIcon from '../Media/Developer/django.svg'
 import socketIOIcon from '../Media/Developer/socket-io.svg'
 import expressIcon from '../Media/Developer/express-js.svg'
+import reactIcon from '../Media/Developer/006-react.svg'
+import sassIcon from '../Media/Developer/sass.svg'
+import bootstrapIcon from '../Media/Developer/bootstrap.svg'
 
 const Projects = () => {
 
@@ -32,7 +35,7 @@ const Projects = () => {
         null,
         'https://github.com/benjaminwgordon/Youtube-Stream-Share',
         'https://youtube-stream-share.herokuapp.com/',
-        'Synchronized Youtube playback with live text chat'
+        'Synchronized Youtube playback with live text chat',
     )
 
     const wayfarer = new ProjectData(
@@ -57,7 +60,18 @@ const Projects = () => {
         'Community writing platform for collaborative story telling'
     )
 
-    const projects = [streamSync, wayfarer, shareAGraph]
+    const ticker = new ProjectData(
+        "Ticker",
+        [
+            reactIcon, sassIcon, bootstrapIcon
+        ],
+        null,
+        'https://github.com/benjaminwgordon/ticker',
+        'https://benjaminwgordon.github.io/ticker/',
+        'Minimalist stock graph using Recharts and D3.js'
+    )
+
+    const projects = [wayfarer, shareAGraph, ticker, streamSync]
     const projectRender = projects.map(project => {
         return <Project project={project} key={project.name}/>
     })
