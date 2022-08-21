@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0c8b9f9b.chunk.css",
-    "main.js": "/portfolio/static/js/main.9b878e17.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9b878e17.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.f34116e9.chunk.css",
+    "main.js": "/portfolio/static/js/main.46c4f9af.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.46c4f9af.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
     "static/js/2.55d783da.chunk.js": "/portfolio/static/js/2.55d783da.chunk.js",
     "static/js/2.55d783da.chunk.js.map": "/portfolio/static/js/2.55d783da.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.0c8b9f9b.chunk.css.map": "/portfolio/static/css/main.0c8b9f9b.chunk.css.map",
+    "static/css/main.f34116e9.chunk.css.map": "/portfolio/static/css/main.f34116e9.chunk.css.map",
     "static/js/2.55d783da.chunk.js.LICENSE.txt": "/portfolio/static/js/2.55d783da.chunk.js.LICENSE.txt",
     "static/media/004-docker.f8dcee51.svg": "/portfolio/static/media/004-docker.f8dcee51.svg",
     "static/media/005-python.477009ef.svg": "/portfolio/static/media/005-python.477009ef.svg",
@@ -20,9 +20,9 @@
     "static/media/032-nodejs.7b00bfc4.svg": "/portfolio/static/media/032-nodejs.7b00bfc4.svg",
     "static/media/Certificate-of-Completion-bengordon1995@gmail.com-1605299667.21f2dfd6.pdf": "/portfolio/static/media/Certificate-of-Completion-bengordon1995@gmail.com-1605299667.21f2dfd6.pdf",
     "static/media/GALogo.faa3a9a1.svg": "/portfolio/static/media/GALogo.faa3a9a1.svg",
-    "static/media/GMW.b1495699.svg": "/portfolio/static/media/GMW.b1495699.svg",
     "static/media/HTML.b208994a.svg": "/portfolio/static/media/HTML.b208994a.svg",
     "static/media/PostgreSQL.d9a2599c.svg": "/portfolio/static/media/PostgreSQL.d9a2599c.svg",
+    "static/media/Sourcegraph.564f0e9d.svg": "/portfolio/static/media/Sourcegraph.564f0e9d.svg",
     "static/media/UA.87e2d253.svg": "/portfolio/static/media/UA.87e2d253.svg",
     "static/media/aws-certified-cloud-practitioner.4787e75c.png": "/portfolio/static/media/aws-certified-cloud-practitioner.4787e75c.png",
     "static/media/bootstrap.72c6aa1e.svg": "/portfolio/static/media/bootstrap.72c6aa1e.svg",
@@ -32,7 +32,6 @@
     "static/media/heroku-logo-solid-purple.018ad819.svg": "/portfolio/static/media/heroku-logo-solid-purple.018ad819.svg",
     "static/media/javascript.07314975.svg": "/portfolio/static/media/javascript.07314975.svg",
     "static/media/me.be8c2f2a.png": "/portfolio/static/media/me.be8c2f2a.png",
-    "static/media/next-js.8a26c6f6.svg": "/portfolio/static/media/next-js.8a26c6f6.svg",
     "static/media/resume-and-cv-white.5eb2f614.svg": "/portfolio/static/media/resume-and-cv-white.5eb2f614.svg",
     "static/media/resume-and-cv.603deabc.svg": "/portfolio/static/media/resume-and-cv.603deabc.svg",
     "static/media/sass.8aa78a83.svg": "/portfolio/static/media/sass.8aa78a83.svg",
@@ -41,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.8fed2963.js",
     "static/js/2.55d783da.chunk.js",
-    "static/css/main.0c8b9f9b.chunk.css",
-    "static/js/main.9b878e17.chunk.js"
+    "static/css/main.f34116e9.chunk.css",
+    "static/js/main.46c4f9af.chunk.js"
   ]
 }
