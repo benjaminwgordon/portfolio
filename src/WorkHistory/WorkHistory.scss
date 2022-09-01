@@ -7,7 +7,7 @@
   padding-top:5rem;
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(lg) {
   .work-history-wrapper{
     flex-direction:row;
   }
@@ -20,10 +20,10 @@
   font-size: 1.75rem;
 }
 .work-history{
-    flex: 3;
-    color:black;
-    display:flex;
-    flex-direction:column-reverse;
-    background:rgba(255, 255, 255, 0.924);
-    padding-top:2rem;
-  }
+  flex: 3;
+  color:black;
+  display:flex;
+  flex-direction:column-reverse;
+  background:rgba(255, 255, 255, 0.924);
+  padding-top:2rem;
+}

@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(lg) {
     .job{
         flex-direction:row;
     }
@@ -46,6 +46,7 @@
 
 .job-right{
     @include material-card();
+    width:100%;
     flex-grow:1;
 }
 
@@ -53,4 +54,8 @@
 .job-logo.top{
     padding-left: 12.5%;
     padding-right: 12.5%;
+}
+
+.job-bullet {
+    font-size: .75rem;
 }

@@ -1,31 +1,36 @@
 @import "~bootstrap/scss/bootstrap";
-
+@import '../Material';
 
 .techbadge{
+    @include material-card();
     display:flex;
     flex-direction:column;
     align-items:center;
-    margin:2rem;
+    margin:1rem;
 }
 
 @include media-breakpoint-up(xs) {
     .techbadge{
-        width: 90px;
+        width: 140px;
+        height:140px;
     }
 }
 @include media-breakpoint-up(sm) {
     .techbadge{
-        width: 90px;
+        width: 140px;
+        height:140px;
     }
 }
 @include media-breakpoint-up(md) {
     .techbadge{
-        width: 130px;
+        width: 140px;
+        height:140px;
     }
 }
 @include media-breakpoint-up(lg) {
     .techbadge{
-        width: 170px;
+        width: 220px;
+        height:220px;
     }
 }
 

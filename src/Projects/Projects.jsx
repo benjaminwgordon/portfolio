@@ -71,7 +71,7 @@ const Projects = () => {
         'Minimalist stock graph using Recharts and D3.js'
     )
 
-    const projects = [wayfarer, shareAGraph, ticker, streamSync]
+    const projects = [ticker, wayfarer, shareAGraph, streamSync]
     const projectRender = projects.map(project => {
         return <Project project={project} key={project.name}/>
     })
